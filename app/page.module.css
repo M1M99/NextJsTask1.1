@@ -61,6 +61,10 @@
   gap: 16px;
 }
 
+.link1{
+  font-size: large;
+}
+
 .ctas a {
   appearance: none;
   border-radius: 128px;
@@ -159,6 +163,11 @@ a.secondary {
     align-items: center;
     justify-content: center;
   }
+}
+
+.listItem {
+  margin-bottom: 10px;
+  list-style-type: none;
 }
 
 @media (prefers-color-scheme: dark) {

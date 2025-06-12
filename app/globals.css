@@ -35,6 +35,20 @@ a {
   text-decoration: none;
 }
 
+.nav-link {
+  display: flex;
+  gap: 15px;
+} 
+
+.nav-link a{
+  font-size: 20px;
+}
+
+a:hover{
+  color: gray;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
