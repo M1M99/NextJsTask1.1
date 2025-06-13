@@ -1,13 +1,11 @@
 export default function Contact() {
     return (
-        <div style={{ 
-            display: "flex", 
-            justifyContent: "center", 
-            alignItems: "center", 
-            flexDirection: "column", 
-            height: "100vh" ,
-            gap:"30px",
-            fontSize:"20px"
+        <div style={{
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+            gap: "30px",
+            fontSize: "20px"
         }}>
             <h3>My Application</h3>
             <h4>Num: +994 70 100 10 10</h4>
